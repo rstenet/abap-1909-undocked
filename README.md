@@ -2,7 +2,7 @@
 
 Three months ago SAP has released new Developer Edition [SAP ABAP Platform 1909](https://blogs.sap.com/2021/02/15/sap-abap-platform-1909-developer-edition-available-soon/comment-page-1/). The euphoria is great: new features, has HANA as DB and on top of all runs in Docker. Super easy to install on Linux, Windows and macOS, even for newbies. Yeah!
 
-Looking at the requirements the euphoria begins to disappear. 16GB RAM and 150GB Disk for Docker alone. On Windows and macOS Docker runs in a VM and the overhead is much bigger then on Linux. I didn't measured it precisely, but have the feeling it is not much smaller than running VMware or VirtualBox, if at all. Additional to that if you want to change some properties of the container after you run it, you have to *docker rm* it and run it the with new parameters, which basically means, you start from the very beginning. Docker on Windows comes with other restrictions e.g. you can't just *bridge* the network.
+Looking at the requirements the euphoria begins to disappear. 16GB RAM and 150GB Disk for Docker alone. On Windows and macOS Docker runs in a VM and the overhead is much bigger than on Linux. I didn't measured it precisely, but have the feeling it is not much smaller than running VMware or VirtualBox, if at all. Additional to that if you want to change some properties of the container after you run it, you have to *docker rm* it and run it the with new parameters, which basically means, you start from the very beginning. Docker on Windows comes with other restrictions e.g. you can't just *bridge* the network.
 
 Being unhappy with Docker on WSL2 and running it in Docker in VMware makes little sense to me so I decided to undock it. With success. Below the steps I did.
 
