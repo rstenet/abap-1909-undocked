@@ -230,7 +230,7 @@ su - hdbadm -c "HDB stop"
 ```
 vmware-toolbox-cmd disk shrink /
 ```
-After the schrink the VMware occupies only 55GB disk space. 
+After the shrink the VMware occupies only 55GB disk space. 
 
 Enjoy.
 
