@@ -72,8 +72,8 @@ python3 undocker.py store/saplabs/abaptrial:1909
 rm -rf hana/shared/HDB/exe/linuxx86_64/hdb_old
 rm -rf hana/shared/HDB/exe/linuxx86_64/HDB_2.00.012.02.1506602370_f3eed173a5f0431baee8be0c50f3a88b67840452
 
-rm -f usr/sap/HDB/HDB02/vhcala4hci/trace/*vhcalhdbdb*
-rm -f usr/sap/HDB/HDB02/vhcala4hci/trace/DB_HDB/*vhcalhdbdb*
+rm -f hana/shared/HDB/HDB02/vhcala4hci/trace/*
+rm -f hana/shared/HDB/HDB02/vhcala4hci/trace/DB_HDB/*
 ```
 
 14. Move the SAP HANA and ABAP AS installation folders
